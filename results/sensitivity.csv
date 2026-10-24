@@ -1,0 +1,5 @@
+﻿policy,strategy,window_days,ledger_records,bank_records,matched_groups,correct_groups,wrong_groups,precision,group_recall,ledger_coverage,unresolved_ledger,subsequent_groups
+cautious,编号与身份分层核对,1,241,213,155,155,0,1.0,0.759804,0.742739,62,3
+cautious,编号与身份分层核对,3,241,218,180,180,0,1.0,0.882353,0.846473,37,8
+cautious,编号与身份分层核对,5,241,222,184,184,0,1.0,0.901961,0.863071,33,12
+cautious,编号与身份分层核对,7,241,222,184,184,0,1.0,0.901961,0.863071,33,12

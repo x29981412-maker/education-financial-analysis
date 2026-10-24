@@ -1,0 +1,128 @@
+{
+  "seed": 47,
+  "period_start": "2026-06-01",
+  "cutoff": "2026-06-30",
+  "amount_unit": "CNY, integer cents internally",
+  "data_kind": "synthetic",
+  "ledger": {
+    "raw_rows": 241,
+    "valid_rows": 241,
+    "sha256": "efc2a26008d3626650c5d5c90313bd3b4e94fca0e709ce4a246c18963b4b18f0"
+  },
+  "bank": {
+    "raw_rows": 227,
+    "valid_rows": 222,
+    "sha256": "c2d3ebe75a31754e1322b0ae353509e52e25a8e534478435099a7d9790055c20"
+  },
+  "excluded_rows": 5,
+  "max_group": 4,
+  "policies": [
+    {
+      "policy": "reference",
+      "strategy": "编号唯一核对",
+      "window_days": 5,
+      "ledger_records": 241,
+      "bank_records": 222,
+      "matched_groups": 144,
+      "correct_groups": 144,
+      "wrong_groups": 0,
+      "precision": 1.0,
+      "group_recall": 0.705882,
+      "ledger_coverage": 0.59751,
+      "unresolved_ledger": 97,
+      "subsequent_groups": 12
+    },
+    {
+      "policy": "cautious",
+      "strategy": "编号与身份分层核对",
+      "window_days": 5,
+      "ledger_records": 241,
+      "bank_records": 222,
+      "matched_groups": 184,
+      "correct_groups": 184,
+      "wrong_groups": 0,
+      "precision": 1.0,
+      "group_recall": 0.901961,
+      "ledger_coverage": 0.863071,
+      "unresolved_ledger": 33,
+      "subsequent_groups": 12
+    },
+    {
+      "policy": "amount_date",
+      "strategy": "金额日期优先",
+      "window_days": 5,
+      "ledger_records": 241,
+      "bank_records": 222,
+      "matched_groups": 204,
+      "correct_groups": 196,
+      "wrong_groups": 8,
+      "precision": 0.960784,
+      "group_recall": 0.960784,
+      "ledger_coverage": 0.946058,
+      "unresolved_ledger": 13,
+      "subsequent_groups": 12
+    }
+  ],
+  "sensitivity": [
+    {
+      "policy": "cautious",
+      "strategy": "编号与身份分层核对",
+      "window_days": 1,
+      "ledger_records": 241,
+      "bank_records": 213,
+      "matched_groups": 155,
+      "correct_groups": 155,
+      "wrong_groups": 0,
+      "precision": 1.0,
+      "group_recall": 0.759804,
+      "ledger_coverage": 0.742739,
+      "unresolved_ledger": 62,
+      "subsequent_groups": 3
+    },
+    {
+      "policy": "cautious",
+      "strategy": "编号与身份分层核对",
+      "window_days": 3,
+      "ledger_records": 241,
+      "bank_records": 218,
+      "matched_groups": 180,
+      "correct_groups": 180,
+      "wrong_groups": 0,
+      "precision": 1.0,
+      "group_recall": 0.882353,
+      "ledger_coverage": 0.846473,
+      "unresolved_ledger": 37,
+      "subsequent_groups": 8
+    },
+    {
+      "policy": "cautious",
+      "strategy": "编号与身份分层核对",
+      "window_days": 5,
+      "ledger_records": 241,
+      "bank_records": 222,
+      "matched_groups": 184,
+      "correct_groups": 184,
+      "wrong_groups": 0,
+      "precision": 1.0,
+      "group_recall": 0.901961,
+      "ledger_coverage": 0.863071,
+      "unresolved_ledger": 33,
+      "subsequent_groups": 12
+    },
+    {
+      "policy": "cautious",
+      "strategy": "编号与身份分层核对",
+      "window_days": 7,
+      "ledger_records": 241,
+      "bank_records": 222,
+      "matched_groups": 184,
+      "correct_groups": 184,
+      "wrong_groups": 0,
+      "precision": 1.0,
+      "group_recall": 0.901961,
+      "ledger_coverage": 0.863071,
+      "unresolved_ledger": 33,
+      "subsequent_groups": 12
+    }
+  ]
+}

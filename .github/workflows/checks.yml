@@ -1,0 +1,24 @@
+name: 核对与复现
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: 单元与约束测试
+        run: python -m unittest discover -s tests -v
+      - name: 重算样例
+        run: python scripts/run_experiment.py
+      - name: 检查结果一致性
+        run: git diff --exit-code -- data results paper/report.md
