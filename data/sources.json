@@ -1,0 +1,30 @@
+{
+  "company": "New Oriental Education & Technology Group Inc.",
+  "study_period": "2023—2025财年；财年截至当年5月31日",
+  "unit": "USD thousands",
+  "basis": "集团合并口径，U.S. GAAP",
+  "retrieved_on": "2026-10-25",
+  "primary": {
+    "title": "Annual Report for FY2025",
+    "publisher": "新东方教育科技（集团）有限公司；港交所披露易",
+    "published_on": "2025-09-25",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0925/2025092501682.pdf",
+    "sha256": "1dff452abb053dbf1bc2374c5eac322d0325ccd75202936a3c670c4b8e6a8f2f",
+    "pages": {
+      "segment_revenues": 128,
+      "auditor_report": "184—186",
+      "balance_sheet": "187—189",
+      "income_statement": 190,
+      "cash_flow": "195—197"
+    }
+  },
+  "cross_reference": {
+    "title": "公司投资者关系网站2025年Form 20-F",
+    "url": "https://investor.neworiental.org/static-files/3b76fb99-af1b-4812-8ada-c68cfb9095df",
+    "annual_report_index": "https://investor.neworiental.org/financial-information/annual-reports",
+    "note": "公司与交易所披露的是同一发行人的资料，不是两个独立审计结论。跨文件回查经营现金流与收入汇总。"
+  },
+  "scope": "资产负债表及损益、现金流数据来自合并财务报表；分部收入来自年报经营回顾表，按其他信息处理。",
+  "page_convention": "financials.csv的pdf_page为港交所PDF阅读器页码，从1开始；不与节选Form 20-F自身内页页码混用。",
+  "missing_values": "所选年报资产负债表仅列2024、2025年，2023年相关值留空，不补估计数。"
+}

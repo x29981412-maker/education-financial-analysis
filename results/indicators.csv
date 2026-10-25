@@ -1,0 +1,4 @@
+﻿year,revenue_usd_million,net_income_usd_million,operating_cf_usd_million,revenue_growth,net_income_growth,operating_cf_growth,cf_to_group_net_income,gross_margin,operating_margin,net_margin,overseas_revenue_usd_million,overseas_share,current_ratio
+2023,2997.76,235.363,971.008,,,,4.125576,0.529836,0.063396,0.078513,354.764,0.118343,
+2024,4313.586,325.218,1122.643,0.438936,0.381772,0.156162,3.451971,0.524535,0.081238,0.075394,439.744,0.101944,1.795781
+2025,4900.262,375.833,896.592,0.136007,0.155634,-0.201356,2.385613,0.554454,0.087393,0.076697,516.367,0.105375,1.576898

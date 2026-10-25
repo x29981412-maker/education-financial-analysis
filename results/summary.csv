@@ -1,4 +1,0 @@
-﻿policy,strategy,window_days,ledger_records,bank_records,matched_groups,correct_groups,wrong_groups,precision,group_recall,ledger_coverage,unresolved_ledger,subsequent_groups
-reference,编号唯一核对,5,241,222,144,144,0,1.0,0.705882,0.59751,97,12
-cautious,编号与身份分层核对,5,241,222,184,184,0,1.0,0.901961,0.863071,33,12
-amount_date,金额日期优先,5,241,222,204,196,8,0.960784,0.960784,0.946058,13,12

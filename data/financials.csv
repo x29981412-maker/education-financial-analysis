@@ -1,0 +1,29 @@
+metric,label,fy2023,fy2024,fy2025,pdf_page,source_label
+assets,资产总额,,7531673,7805499,187,Total assets
+liabilities,负债总额,,3482659,3851767,188,Total liabilities
+equity,权益总额,,4049014,3953732,189,Total equity
+current_assets,流动资产,,5388878,5187702,187,Total current assets
+current_liabilities,流动负债,,3000855,3289814,188,Total current liabilities
+cash_equivalents,现金及现金等价物,,1389359,1612379,187,Cash and cash equivalents
+restricted_current,流动受限现金,,177411,180724,187,"Restricted cash, current"
+restricted_noncurrent,非流动受限现金,,22334,24030,187,"Restricted cash, non-current"
+revenue,营业收入,2997760,4313586,4900262,190,Total net revenues
+service_revenue,服务收入,2544729,3500998,4334071,190,Net service revenues
+product_revenue,产品收入,453031,812588,566191,190,Net product revenues
+cost_of_revenue,营业成本（原表负数）,-1409438,-2050960,-2183291,190,Cost of revenues
+operating_expenses,经营成本与费用合计（原表负数）,-2807714,-3963161,-4472012,190,Total operating cost and expenses
+operating_income,营业利润,190046,350425,428250,190,Operating income
+net_income,合并净利润,235363,325218,375833,190,Net income
+cf_net_income,现金流量表列示净利润,235363,325218,375833,195,Net income
+operating_cf,经营活动现金流量净额,971008,1122643,896592,195,Net cash provided by operating activities
+investing_cf,投资活动现金流量净额,-37411,-1153922,-93428,196,Net cash used in investing activities
+financing_cf,筹资活动现金流量净额,-246867,-160438,-584971,197,Net cash used in financing activities
+fx_effect,汇率变动影响,-75830,-24606,9836,197,Effects of exchange rate changes
+cash_change,现金及受限现金净变动,610900,-216323,228029,197,"Net change in cash, cash equivalents and restricted cash"
+cash_begin,年初现金及受限现金,1194527,1805427,1589104,197,"Cash, cash equivalents and restricted cash at beginning of year"
+cash_end,年末现金及受限现金,1805427,1589104,1817133,197,"Cash, cash equivalents and restricted cash at end of year"
+deferred_cf,递延收入对经营现金流的调整,469339,468197,163824,195,Deferred revenue
+education_segment,教育服务及备考课程收入,1914865,2716174,3456189,128,Educational services and test preparation courses
+commerce_segment,自营产品及直播电商收入,557508,900614,600281,128,Private label products and livestreaming e-commerce
+overseas_segment,留学咨询服务收入,354764,439744,516367,128,Overseas study consulting services
+other_segment,其他分部收入,170623,257054,327425,128,Others

@@ -1,4 +1,4 @@
-name: 核对与复现
+name: 数据复算
 
 on: [push, pull_request]
 
@@ -6,19 +6,13 @@ permissions:
   contents: read
 
 jobs:
-  check:
+  study:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: ["3.11", "3.12", "3.13"]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: ${{ matrix.python-version }}
-      - name: 单元与约束测试
-        run: python -m unittest discover -s tests -v
-      - name: 重算样例
-        run: python scripts/run_experiment.py
-      - name: 检查结果一致性
-        run: git diff --exit-code -- data results paper/report.md
+          python-version: "3.12"
+      - run: python -m unittest discover -s tests
+      - run: python analysis.py
+      - run: git diff --exit-code -- results/indicators.csv results/checks.csv results/cashflow_bridge.csv paper/report.md
